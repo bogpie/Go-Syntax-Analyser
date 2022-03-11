@@ -1,0 +1,18 @@
+// Input2
+func qwerty(a bool) bool {
+	return a
+}
+
+func qwertyuiop(x, y bool) float32 { 
+	return x 
+}
+
+func main() {
+	a := "test"
+	var b string = a
+	b = 7.234
+	var c bool = false
+	c := true
+}
+
+// qwerty

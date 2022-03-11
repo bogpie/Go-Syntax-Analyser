@@ -1,0 +1,29 @@
+// Input1
+func first(a, b, c, d float32) float32 {
+	return a
+}
+
+/*
+	func second(a, b, c int) int {
+		return a // single line comment
+	}
+*/
+
+func second(a, b int) float32 { return b }
+
+func third(a, b, c int) bool {
+	return b
+}
+
+func third(a bool, b bool) {
+	return a
+}
+
+func main() {
+	var a int
+	var b int
+	a := 7
+	c := 1.234
+	var d bool = c
+	var e, f, g := true, "test", 99.123 
+}
